@@ -15,6 +15,7 @@ Padoo Trackpad for Windows lets your own iPhone, running the Padoo app, control 
 - Pairing keys (trust.bin, encrypted with Windows data protection for your user account) and a random computer ID (device.json).
 - App usage scores (usage.json): which of your taskbar-pinned apps you switch to and when. Used only for the "most used" row on your iPhone.
 - Your optional deck settings (deck.json) and diagnostic logs.
+- Your app settings (settings.json): the choices you make in the Settings window.
 
 None of these files leave your PC, and none are sent to the developer.
 
