@@ -1,6 +1,6 @@
 # Padoo Trackpad for Windows: Privacy Policy
 
-Last updated: October 2026
+Last updated: November 2026
 
 Padoo Trackpad for Windows lets your own iPhone, running the Padoo app, control this PC over your local network. It does not collect, sell or share personal data, and it has no accounts, ads, analytics or telemetry.
 
@@ -8,6 +8,7 @@ Padoo Trackpad for Windows lets your own iPhone, running the Padoo app, control 
 
 - The app announces itself on your local network (Bonjour/mDNS, using this computer's name) so your iPhone can find it.
 - It talks only to iPhones you paired with a QR code, over an encrypted connection on your local network.
+- With DuoLink on, Padoo also receives pointer motion from your phone over Bluetooth. It stays between your phone and this PC.
 - The Microsoft Store version makes no internet connections. The version downloaded from GitHub checks GitHub once a day for a newer version; that request contains no personal data.
 
 ## What stays on your PC
@@ -16,6 +17,7 @@ Padoo Trackpad for Windows lets your own iPhone, running the Padoo app, control 
 - App usage scores (usage.json): which of your taskbar-pinned apps you switch to and when. Used only for the "most used" row on your iPhone.
 - Your optional deck settings (deck.json) and diagnostic logs.
 - Your app settings (settings.json): the choices you make in the Settings window.
+- If you use DuoLink, Windows remembers your phone in its Bluetooth devices after the first pairing. You can remove it in Windows Settings, Bluetooth & devices.
 
 None of these files leave your PC, and none are sent to the developer.
 
